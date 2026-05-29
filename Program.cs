@@ -1,4 +1,4 @@
-﻿string dosyaYolu = "veriler.txt";
+﻿string dosyaYolu = "notlar.txt";
 
 List<string> notlar = new List<string>();
 
