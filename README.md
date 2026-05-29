@@ -1,68 +1,65 @@
-# Notes App V2
+# Notes App
 
-A simple console-based note-taking application built with C# and .NET.
+A console-based note-taking application built with C# and .NET.
 
-This project is part of my software development learning journey. Rather than following only tutorials, I focus on building practical projects to improve my problem-solving skills, programming fundamentals, and understanding of software development concepts.
+This project was developed as part of my software development journey, with a focus on strengthening programming fundamentals through practical application rather than tutorial-only learning.
+
+The application allows users to create, view, and delete notes while persisting data locally using file storage.
 
 ---
 
-## About The Project
+## Overview
 
-Notes App V2 allows users to create, list, and delete notes directly from the terminal.
+Notes App is a lightweight terminal application designed to manage personal notes.
 
-Unlike the first version, this version stores data in a text file, allowing notes to persist even after the application is closed.
+The project demonstrates core software development concepts such as data persistence, input validation, collection management, and basic application architecture.
 
-The goal of this project was to gain hands-on experience with:
-
-* Collections (`List<T>`)
-* File operations
-* Input validation
-* Control flow structures
-* Basic application architecture
-* Error handling
+All notes are automatically stored in a text file, allowing data to remain available between application sessions.
 
 ---
 
 ## Features
 
-* Add notes
-* List saved notes
+* Create new notes
+* List all saved notes
 * Delete notes by index
 * Automatic file creation
-* Persistent storage using text files
-* Input validation using `TryParse`
-* Protection against invalid note indexes
+* Persistent local storage
+* Input validation with `TryParse`
+* Safe index validation before deletion
+* Simple and user-friendly console interface
 
 ---
 
-## Technologies Used
+## Technologies
 
 * C#
 * .NET 10
 * Console Applications
-* File I/O (`File.ReadAllLines`, `File.WriteAllLines`)
 * Collections (`List<string>`)
+* File I/O (`File.ReadAllLines`, `File.WriteAllLines`)
 
 ---
 
-## What I Learned
+## Skills Practiced
 
-During the development of this project I practiced:
+During the development of this project, I worked with:
 
 * Loops (`while`, `for`)
 * Conditional statements (`if`, `else`)
-* Working with collections
-* Reading and writing files
+* Collection management
+* File handling
 * User input validation
-* Exception prevention through defensive programming
-* Structuring a small application from start to finish
+* Defensive programming techniques
+* Application flow control
+* Basic software architecture
 
 ---
 
 ## Project Structure
 
 ```text
-Notes App V2
+Notes App
 │
 ├── Program.cs
 ├── veriler.txt
@@ -71,34 +68,40 @@ Notes App V2
 
 ---
 
+## Learning Goals
+
+The primary goals of this project were:
+
+* Building a complete application from start to finish
+* Understanding how to persist data between sessions
+* Improving problem-solving skills
+* Practicing clean and maintainable code structure
+* Developing confidence with C# fundamentals
+
+---
+
 ## Future Improvements
 
-Planned improvements include:
+Potential future enhancements include:
 
-* Edit existing notes
-* Search notes
+* Note editing support
+* Search functionality
 * Categories and tags
-* Date and time support
+* Date and time tracking
 * Export functionality
-* Graphical user interface (WinForms/WPF)
+* Desktop interface using WinForms or WPF
+* Data serialization using JSON
 
 ---
 
-## Learning Journey
-
-This repository is part of my public learning journey as I continue improving my C# and software development skills.
-
-Each project in my GitHub profile is intended to demonstrate growth, practical experience, and consistent progress rather than simply completed coursework.
-
----
-
-## Author
+## Developer
 
 GitHub: @LyDorex
 
-Currently learning:
+This repository is part of my public software development portfolio and learning journey. Each project is intended to demonstrate practical experience, continuous improvement, and long-term growth as a developer.
 
-* C#
-* .NET
-* Software Design Fundamentals
-* Desktop Application Development
+---
+
+## License
+
+This project is available for educational and portfolio purposes.
